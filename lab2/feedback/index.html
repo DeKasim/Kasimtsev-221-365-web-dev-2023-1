@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Форма обратной связи</title>
+</head>
+<body class="body">
+    <div class="div1 cntr">
+        <div class="div2 cntr">
+            <h1 class="header cntr">ФОРМА ОБРАТНОЙ СВЯЗИ</h2>
+        </div>
+    </div>
+    <div class="cntr">
+        <form action="https://httpbin.org/post" method="post" accept-charset="utf-8" class="form_obr">
+            <fieldset class="ramka">
+                <legend>Имя и почта</legend> 
+                <div class="div3">
+                    <label class="naming" for="fio">ФИО</label>
+                    <input class="choosetxt" type="text" id="fio" name="fio" placeholder="Введите ФИО">
+                </div>
+                <div class="div3">
+                    <label class="naming" for="email">Email</label>
+                    <input class="choosetxt" type="email" id="email" name="email" placeholder="Введите свою почту">
+                </div>
+            </fieldset>
+
+            <fieldset class="ramka cntr" >
+                <legend>Категория обращения</legend>
+                <div class="cntr">
+                    <select class="choosetxt" name="type" id="type">
+                        <option class="vibor1" value="predlozheniye">Предложение</option>
+                        <option class="vibor2" value="zamechaniye">Замечание</option>
+                        <option class="vibor3" value="zhaloba">Жалоба</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset class="ramka">
+                <legend>Как вы узнали о нас?</legend>
+                <div class="vibor">
+                    <input type="radio" name="source" id="adv" value="adv">
+                    <label for="adv">Реклама</label>
+                </div>
+                <div class="vibor">
+                    <input type="radio" name="source" id="friends" value="friends">
+                    <label for="friends">Друзья</label>
+                </div>
+                <div class="vibor">
+                    <input type="radio" name="source" id="social" value="social">
+                    <label for="social">Социальные сети</label>
+                </div>
+            </fieldset>
+            <fieldset class="ramka">
+                <legend>Сообщение</legend>
+                <textarea class="choosetxt" id="message" cols="70" rows="10" placeholder="Чем бы вы хотели поделиться?"></textarea>
+            </fieldset>
+            <fieldset class="ramka">
+                <legend>Вложение</legend>
+                <input type="file" name="file" id="file" >
+            </fieldset>
+            <fieldset class="ramka">
+                <div class="checkbox">
+                    <input class="checkbox" type="checkbox" name="agree" id="agree">
+                    <label>Даю согласие на обработку моих персональных данных</label>
+                </div>
+            </fieldset>
+                <input class="button" type="submit" value="Отправить">
+            
+        </form>
+    </div>
+</body>
+</html>

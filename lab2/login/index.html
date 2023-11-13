@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Авторизация</title>
+</head>
+<body class="body">
+    <div class="center all">
+        <div class="div2 center">
+            <h1 class="header center">АВТОРИЗАЦИЯ</h2>
+        </div>
+
+        <form action="https://httpbin.org/post" method="post" accept-charset="utf-8">
+
+            <div class="div3">
+                <label class="login" for="login">
+                    Введите логин: 
+                </label>
+                <input class="inp" type="text" id="login" name="login" placeholder="почта/телефон">
+            </div>
+
+            <div class="div3">
+                <label class="pass" for="pass">
+                    Введите пароль: 
+                </label>
+                <input class="inp" type="text" id="login" name="login" placeholder="введите пароль">
+            </div>
+
+            <div class="div3">
+                <input class="checkbox" type="checkbox" name="memory" id="memory">
+                <label class="remember">
+                    Запомнить меня
+                </label>
+                <input class="button" type="submit" value="Отправить">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

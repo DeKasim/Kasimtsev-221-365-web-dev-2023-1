@@ -1,0 +1,62 @@
+body{
+    background-image: url(fon.png);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.div2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.div3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: medium;
+}
+
+.login{
+    font-size: 22px;
+}
+
+.pass{
+    font-size: 22px;
+}
+
+.inp{
+    font-size: 16px;
+    font-style: light;
+    border-radius: 10px;
+    padding: 7.5px;
+    border: 3px solid white;
+    background-color:black;
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    font-size: 50px;
+    font-style: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.all{
+    width: 35%;
+    height: 35%;
+    margin-top: 16%;
+    margin-left: 33%;
+}
+
+.remember{
+    font-size: 22px;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+}
