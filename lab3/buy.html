@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/buystyle.css">
+    <link rel="stylesheet" href="./styles/print.css" media="print">
+    <title>Купить курс</title>
+</head>
+<body class="body">
+    <header class="header cntr">
+        <f1> ПОКУПКА КУРСА </f1>
+    </header>
+    <div class="fiocurs">
+        <div class="container">
+            <label class="form-group" for="fio">ФИО</label>
+            <input class="fio" type="text" id="fio" name="fio" placeholder="Збрашов Макс Блендерович">
+        </div>
+        <div class="container">
+            <label class="form-group cntr" for="fio">Выберите курс</label>
+            <select class="kurstype" name="type" id="type">
+                <option value="3dmax1">3ds max "БАЗОВЫЙ"</option>
+                <option value="3dmax2">3ds max "ПРОДВИНУТЫЙ"</option>
+                <option value="3dmax3">3ds max "ИНТЕРЬЕРЫ"</option>
+                <option value="3dmax4">3ds max "ЭКСТЕРЬЕРЫ"</option>
+                <option value="blender1">blender 3d "БАЗОВЫЙ"</option>
+                <option value="blender2">blender 3d "ПРОДВИНУТЫЙ"</option>
+                <option value="blender3">blender 3d "ИГРОВОЙ"</option>
+                <option value="blender4">blender 3d "ИНТЕРЬЕРЫ"</option>
+                <option value="zbrush1">zbrush "БАЗОВЫЙ"</option>
+                <option value="zbrush2">zbrush "ПРОДВИНУТЫЙ"</option>
+                <option value="zbrush3">zbrush "ПЕРСОНАЖИ"</option>
+                <option value="zbrush4">zbrush "ОДЕЖДА"</option>
+            </select>
+        </div>
+    </div>
+    <fieldset class="ramka container" >
+        <legend class="form-group">Как вам отправить квинтацию к оплате?</legend>
+                <div class="mestype">
+                    <input type="radio" name="source" id="mail" value="mail">
+                    <label for="adv">Почта</label>
+                </div>
+                <div class="mestype">
+                    <input type="radio" name="source" id="tg" value="tg">
+                    <label for="friends">Телеграм</label>
+                </div>
+                <div class="mestype">
+                    <input type="radio" name="mes" id="social" value="mes">
+                    <label for="social">Сообщение</label>
+                </div>
+    </fieldset>
+    <div class="container cntr">
+        <a class="btnbuy cntr" href="index.html">Оставить заявку на курс</a>
+    </div>
+</html>
