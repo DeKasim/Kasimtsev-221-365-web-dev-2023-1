@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ARcloth</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"/>
+    </head>
+    <body style="font-family: 'Montserrat', sans-serif;">
+        <header class=" bg-black text-white ms-auto"> 
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid py-2">
+                  <img src="./images/logoar2.png" style="width: 100px;" alt="ARcloth"> <h1>ARcloth</h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link text-white"  href="#mainpart" class="btn btn-outline-secondary">ОПИСАНИЕ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#contacts">КОНТАКТЫ</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="bg-secondary text-white">
+                <div class="container-fluid">
+                    <div class="p-3">
+                        <div class="row">
+                            <div class="col-md-6 px-5 pb-5">
+                                <h2 class="fw-bold text-center">Уникальный бренд одежды "ARcloth"</h2>
+                                <p class="text-center">Любите косметические предметы в игре и верите в технологически развитое будущее?</p>
+                                <p class="fw-bold text-center">ОТЛИЧНО</p>
+                                <p class="text-center">Тогда вы можете стать тем, кто создаст великое будущее</p>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img src="images/logoar.png" style="width: 250px;" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="mainpart">
+                <div class="container text-secondary text-black py-5 px-5">
+                    <div class="text-center  mt-3">
+                        <h2 class="fw-bold">ОПИСАНИЕ</h2>
+                    </div>
+                    <div class="text-center">
+                        <div class="headline w-25 mx-auto my-4"></div>
+                    </div>
+                    <div class="text-center">
+                        <p>Мы - иновационная компания с новыми и бударажащими идеями! Представьте будущее: все ходят в очках с AR и видят информацию друг о друге. Видят всё! Социальные сети, посты и косметические AR аксессуары! А мы дадим будущему толчком и уже сейчас предлагаем вам одежду с элементами AR</p>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-secondary">ИНВЕСТИРОВАТЬ</button>
+                    </div>
+                </div>
+            </section>
+            <section class="technology container-fluid bg-secondary text-white">
+                <div class="py-3">
+                    <h2 class="fw-bold text-center">
+                    Обратная связь
+                    </h2>
+                    <div class="headline w-25 mx-auto mt-4" id="contacts"></div>
+                    <form>
+                        <div class="mb-3 row d-flex justify-content-center">
+                          <label for="exampleInputEmail1" class="form-label text-center">Электронная почта</label>
+                          <input type="email" class="form-control w-25" id="exampleInputEmail1" placeholder="Введите адрес электронной почты">
+                          <div id="emailHelp" class="form-text text-center">Мы не передаем введенные данные третьим лицам.</div>
+                        </div>
+                        <div class="mb-3 row d-flex justify-content-center">
+                          <label for="InputName" class="form- text-center">Имя</label>
+                          <input type="password" class="form-control w-25" id="exampleInputName1" placeholder="Введите имя" >
+                        </div>
+                        <div class="mb-3 row d-flex justify-content-center">
+                          <label for="textarea" class="form-label text-center">Сообщение</label>
+                          <textarea class="form-control w-25" name="massage" id="floatingTextarea" cols="5" rows="5" placeholder="Введите сообщение"></textarea>
+                        </div>
+                        <div class="col text-center">
+                          <button type="submit" class="text-center btn btn-outline-dark">Отправить</button>
+                      </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-black text-black py-3">
+            <p class="text-center text-light">Касимцев Дамир Ринатович группа 221-365</p>
+        </footer>
+    </body>
+</html>
